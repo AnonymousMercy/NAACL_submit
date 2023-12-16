@@ -7,7 +7,11 @@
 
 ## Dataset
 - Pretraining Dataset: We use image-caption datasets LLaVA-CC3M and its machine-traslated Korean counterpart, LLaVA-KoCC3M.
-- VIF Dataset: We utilize GPT-generated multimodal instruction-following data from both LLaVA-Instruct-158K and KoLLaVA-Instruct-158K. Additionally, we use our dataset, mvif, which is produced by the GPT4-V model and encompasses three languages: English, Korean, and Chinese. This dataset is categorized into four types: (1) Object-centric, (2) Location-centric, (3) Atmosphere-centric, and (4) Conversation.
+- VIF Dataset: We utilize GPT-generated multimodal instruction-following data from both LLaVA-Instruct-158K and KoLLaVA-Instruct-158K. Additionally, we use our dataset, mvif, which is produced by the GPT4-V model and encompasses three languages: English, Korean, and Chinese. This dataset is categorized into four types:
+    - (1) Object-centric
+    - (2) Location-centric
+    - (3) Atmosphere-centric
+    - (4) Conversation.
 
 
 ## Usage
