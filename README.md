@@ -108,7 +108,7 @@ print('Outputs')
 print(outputs)
 ```
 <figure>
-  <img src="./figs/example.png" width="500" >
+  <img src="./figs/example.jpg" width="500" >
 </figure>
 
 **Output   
