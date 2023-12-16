@@ -92,9 +92,9 @@ print(outputs)
 
 ```
 
-```
-The image exudes a majestic and otherworldly atmosphere, with the ancient ruins of a pyramid set against a dramatic sky. The sunlight pierces through the clouds, creating a beam of light that illuminates the pyramid, highlighting its intricate details and giving it a sacred, almost ethereal quality. The vibrant colors of the sky, ranging from deep blues to vivid oranges and yellows, suggest a powerful and dynamic natural force at work. The overall mood is one of awe and reverence, as if the viewer is witnessing a moment of great historical significance or a sacred site that has stood the test of time.
-```
+**Output: 
+The image exudes a majestic and otherworldly atmosphere, with the ancient ruins of a pyramid set against a dramatic sky. The sunlight pierces through the clouds, creating a beam of light that illuminates the pyramid, highlighting its intricate details and giving it a sacred, almost ethereal quality. The vibrant colors of the sky, ranging from deep blues to vivid oranges and yellows, suggest a powerful and dynamic natural force at work. The overall mood is one of awe and reverence, as if the viewer is witnessing a moment of great historical significance or a sacred site that has stood the test of time.**
+
 
 
 
