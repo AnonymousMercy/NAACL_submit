@@ -33,8 +33,12 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import math
 
+import requests
+from io import BytesIO
+
+
 disable_torch_init()
-model_path = 'path of Downloaded model '
+model_path = 'MLP-KTLim/X_LLaVA_O_notconver_BaseLLM_L'
 model_base = None
 model_name = get_model_name_from_path(model_path)
 tokenizer, model, l_image_processor, context_len = load_pretrained_model(model_path, model_base, model_name)
@@ -50,8 +54,15 @@ conv_mode = 'llava_llama_2'
 if 'plain' in model_name and 'finetune' not in model_name.lower() and 'mmtag' not in conv_mode:
     conv_mode = conv_mode + '_mmtag'
 
-image_file_dir = '/home/hslim/llava/images/001.jpg'
-image = Image.open(image_file_dir).convert('RGB')
+# image_file_dir = 'your_image_path'
+# image = Image.open(image_file_dir).convert('RGB')
+    
+image_url = 'https://www.state.gov/wp-content/uploads/2023/07/shutterstock_1222044724v2-768x476.jpg'
+response = requests.get(image_url)
+image_data = BytesIO(response.content)
+
+# PIL을 사용하여 이미지 열기
+image = Image.open(image_data).convert('RGB')
 
 qs = '''Please explain the atmosphere you feel when you see the image'''
 
@@ -88,11 +99,12 @@ input_token_len = input_ids.shape[1]
 outputs = tokenizer.batch_decode(output_ids[:, input_token_len:], skip_special_tokens=True)[0]
 outputs = outputs.strip()
 
-print(outputs)
 
+print('Outputs')
+print(outputs)
 ```
 
-**Output: 
+**Output   
 The image exudes a majestic and otherworldly atmosphere, with the ancient ruins of a pyramid set against a dramatic sky. The sunlight pierces through the clouds, creating a beam of light that illuminates the pyramid, highlighting its intricate details and giving it a sacred, almost ethereal quality. The vibrant colors of the sky, ranging from deep blues to vivid oranges and yellows, suggest a powerful and dynamic natural force at work. The overall mood is one of awe and reverence, as if the viewer is witnessing a moment of great historical significance or a sacred site that has stood the test of time.**
 
 
