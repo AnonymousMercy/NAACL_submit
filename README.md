@@ -1,8 +1,8 @@
 # NAACL_submit
 [DEMO]()
 
-## Model download
-https://drive.google.com/file/d/1JHi1NXJxRaUN-Qogge17aRC0TZBtcXnm/view?usp=sharing
+## Download Link
+[https://drive.google.com/file/d/1JHi1NXJxRaUN-Qogge17aRC0TZBtcXnm/view?usp=sharing](https://drive.google.com/drive/folders/1gy5pGUT2ws1BdnJmVezCQ8-IcOUZ7jBz?usp=drive_link)
 
 
 ## Dataset
