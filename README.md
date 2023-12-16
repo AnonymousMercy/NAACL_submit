@@ -121,14 +121,20 @@ NVIDIA RTX A6000
 
 
 ## Evaluation results by GPT4-Vision
-- Korean language proficiency
+- Korean answer preference
 <figure>
-  <img src="./Kor Eval.png" width="500" >
+  <img src="./figs/XLLaVA_vs_Others_KO.png" width="500" >
 </figure>
 
-- English language proficiency
+- English answer preference
 <figure>
-  <img src="./Eng Eval.png" width="500" >
+  <img src="./figs/XLLaVA_vs_Others_EN.png" width="500" >
 </figure>
 
+
+## Human Evaluation results
+- Korean answer preference
+<figure>
+  <img src="./figs/XLLaVA_vs_Others_HumanEval_KO.png" width="500" >
+</figure>
 
