@@ -42,7 +42,7 @@ from io import BytesIO
 
 
 disable_torch_init()
-model_path = 'MLP-KTLim/X_LLaVA_O_notconver_BaseLLM_L'
+model_path = 'path of downloaded model'
 model_base = None
 model_name = get_model_name_from_path(model_path)
 tokenizer, model, l_image_processor, context_len = load_pretrained_model(model_path, model_base, model_name)
