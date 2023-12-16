@@ -12,6 +12,10 @@ https://drive.google.com/file/d/1JHi1NXJxRaUN-Qogge17aRC0TZBtcXnm/view?usp=shari
 
 ## Usage
 ```
+$ pip install -r requirements.txt
+```
+
+```
 import argparse
 import torch
 import os
