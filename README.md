@@ -1,5 +1,5 @@
 # NAACL_submit
-[DEMO](https://6b17334d43058d53b2.gradio.live/)
+[DEMO](https://7590054cd4cb74a1ea.gradio.live/)
 
 ## Download Link
 [https://drive.google.com/file/d/1JHi1NXJxRaUN-Qogge17aRC0TZBtcXnm/view?usp=sharing](https://drive.google.com/drive/folders/1gy5pGUT2ws1BdnJmVezCQ8-IcOUZ7jBz?usp=drive_link)
