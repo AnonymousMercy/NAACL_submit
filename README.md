@@ -3,7 +3,8 @@
 
 ## Download Link
 [LINK](https://drive.google.com/drive/folders/1gy5pGUT2ws1BdnJmVezCQ8-IcOUZ7jBz?usp=drive_link)
-- Preference evaluation : Qualitative Evaluation Results of Our Model and Other Models
+- Qualitative Evaluation : Qualitative Evaluation Results of Our Model and Other Models
+- Quantitative Evaluation : Quantitative Evaluation Results of Our Model
 - xllava.tar.gz : Our Model(X-LLaVA)
 
 ## Dataset
